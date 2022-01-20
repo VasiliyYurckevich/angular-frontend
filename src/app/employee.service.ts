@@ -13,6 +13,6 @@ export class EmployeeService {
 
 
   getEmployeesList(): Observable<Employee[]>{
-    return this.httpClient.get<Employee[]>('${this.baseur}');
+    return this.httpClient.get<Employee[]>('${this.baseurl}');
   }
 }
